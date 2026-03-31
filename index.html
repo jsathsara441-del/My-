@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thenuja Sathsara | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">THENUJA<span>SATHSARA</span></div>
+        <div class="menu-btn" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+    </header>
+
+    <div class="nav-overlay" id="navOverlay">
+        <div class="close-btn" onclick="toggleMenu()">&times;</div>
+        <a href="#home" onclick="toggleMenu()">HOME</a>
+        <a href="#about" onclick="toggleMenu()">ABOUT</a>
+        <a href="#skills" onclick="toggleMenu()">SKILLS</a>
+        <a href="#projects" onclick="toggleMenu()">PROJECTS</a>
+        <a href="#contact" onclick="toggleMenu()">CONTACT</a>
+    </div>
+
+    <div class="hero" id="home">
+        <img src="./images/thenuja.jpg" alt="Profile" class="profile-img">
+        <h1>Thenuja Sathsara <i class="fas fa-check-circle verified-icon"></i></h1>
+        <p class="japanese-name">テヌジャ・ササラ</p>
+
+        <div class="tags">
+            <span class="tag">Photo Editor</span>
+            <span class="tag">Management</span>
+            <span class="tag">Drum Player</span>
+        </div>
+
+        <a href="#contact" class="btn-thenuja">Thenuja Sathsara</a>
+
+        <div class="socials">
+            <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/jsathsara441-del/"><i class="fab fa-github"></i></a>
+            <a href="http://www.youtube.com/@ThenujaSathsara-k6g"><i class="fab fa-youtube"></i></a>
+            <a href="https://vm.tiktok.com/ZS98khGdkbUDR-LkDYV/"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </div>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="content-card">
+            <div class="info-row"><b>Full Name:</b> Thenuja Sathsara</div>
+            <div class="info-row"><b>Age:</b> 16+</div>
+            <div class="info-row"><b>Passion:</b> Creating unique digital experiences and managing online communities.</div>
+            <a href="#contact" class="btn-thenuja" style="font-size: 0.7rem; padding: 8px 20px;">Thenuja Sathsara</a>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="tags">
+            <span class="tag">Group Management</span>
+            <span class="tag">Photo Editor</span>
+            <span class="tag">Singer</span>
+            <span class="tag">Drum Player</span>
+            <span class="tag">Crypto Trader</span>
+            <span class="tag">Crypto VIP Admin</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="content-card">
+            <p>Check out my latest web projects:</p>
+            <a href="https://699e9865958c4ea1793a3892--super-cucurucho-62c58a.netlify.app/" target="_blank" class="project-link">FB Video Downloader</a>
+            <a href="https://6995e8dcb240941c32bdc314--grand-stroopwafel-baffa5.netlify.app/" target="_blank" class="project-link">Mini Bot Site</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="content-card">
+            <p style="margin-bottom: 15px;">Feel free to reach out for collaborations!</p>
+            <div style="display: flex; flex-direction: column; gap: 15px; align-items: center;">
+                <a href="https://wa.me/94787709014" target="_blank" class="btn-thenuja" style="width: 250px;">
+                    <i class="fab fa-whatsapp"></i> WhatsApp Me
+                </a>
+                
+                <a href="mailto:your-email@gmail.com" class="btn-thenuja" style="width: 250px;">
+                    <i class="fas fa-envelope"></i> Email Me
+                </a>    
+            </div>
+            <div style="margin-top: 30px;">   
+                 <a href="https://whatsapp.com/channel/0029Vb6h7WoHbFV44iCGzT3m/" target="_blank" class="project-link">Join My WhatsApp Channel</a>
+            </div> 
+        </div>    
+    </section>
+
+    <footer>
+        <p>THENUJA SATHSARA &copy; 2026</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
